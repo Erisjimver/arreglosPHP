@@ -13,7 +13,7 @@
 
 					"leche"=>array("animal"=>"vaca",
 									"vegetal"=>"coco"),
-					
+
 					"carne"=>array("vacuno"=>"lomo",
 									"porcino"=>"pata"));
 
@@ -31,7 +31,7 @@
 		echo "<br>";
 	}
 */
-	foreach ($alimentos as $clave_alim=> $alim) {
+/*	foreach ($alimentos as $clave_alim=> $alim) {
     echo "$clave_alim: <br>"; 
 
  
@@ -40,6 +40,9 @@
   	}
   	echo "<br>";
     }
+*/
+
+    echo var_dump($alimentos);
 
 ?>
 
